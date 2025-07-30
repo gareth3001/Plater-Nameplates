@@ -900,6 +900,7 @@ PLATER_DEFAULT_SETTINGS = {
 		aura_show_buffs_personal = false,
 		aura_show_debuffs_personal = true,
 		aura_show_all_duration_buffs_personal = false,
+		aura_show_only_important_buffs_personal = false,
 		
 		aura_show_important = true,
 		aura_show_dispellable = true,
@@ -950,6 +951,7 @@ PLATER_DEFAULT_SETTINGS = {
 		
 		bossmod_support_enabled = true,
 		bossmod_castrename_enabled = true,
+		bossmod_castrename_priority = false,
 		bossmod_support_bars_enabled = true,
 		bossmod_support_bars_text_enabled = true,
 		bossmod_aura_height = 24,
@@ -1022,6 +1024,15 @@ PLATER_DEFAULT_SETTINGS = {
 			["arena"] = true,
 			["world"] =  true,
 			["cities"] = false,
+		},
+		
+		auto_toggle_always_show_enabled = false,
+		auto_toggle_always_show = {
+			["party"] = true,
+			["raid"] = true,
+			["arena"] = true,
+			["world"] =  true,
+			["cities"] = true,
 		},
 
 		auto_inside_raid_dungeon = {
